@@ -1,5 +1,6 @@
 .about {
     background-color: aquamarine;
+    color:dodgerblue
 }
 .dog-p{
     color: aqua;
@@ -20,4 +21,13 @@ h2 {
 .titel{
     font-size: x-large;
     background-color: aquamarine;
+}
+label{
+    display: inline-block;
+    width: 70px;
+    margin:bottom
+}
+
+.submit-box{
+    margin: 0px 73px;
 }
