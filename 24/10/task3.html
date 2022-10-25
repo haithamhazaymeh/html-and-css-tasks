@@ -4,43 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TASK 3</title>
+    <title>task 3</title>
     <style>
+        .flex-container2{
+    display:flex;
+    }
+.flex-container2>div{
+    text-align:center;
+    color: white;
+    width: 100%;
+    height:400px;
+    font-size:50px;
+   padding-top:50%;   
+}
 
-html, body {
-  width: 100%;
-  height: 100%;
-        }
-        #main{
-            height: 100%;
-            width: 100%;
-             display: flex;
-             justify-content: center;
-                align-items:center;          
-            
-        }
-
-        div div{
-            text-align: center;
-             width: 50%;
-            height: 100%;
-            font-size: 50px;
-
-            .flex-divs{
-    display: flex;
-  
-    justify-content: center;
-   align-items:center;
+@media only screen and (min-width:0px) and (max-width:480px){
+    .flex-container2{
+    display:flex;
+    flex-direction:column;
+    }
+.flex-container2>div{
+    text-align:center;
+    color: white;
+    width: 100%;
+    height:400px;
+    font-size:50px;
+   padding-top:50%;   
+}
+    }
 
     </style>
+    
 </head>
-<body class="BODY">
-    <DIV id="main">
-        <div class= "flex-divs1" style="background-color:Blue ;">
-First part
+<body>
+    <div class="flex-container2">
+        <div style="background-color:orange;">First Part</div>
+        <div style="background-color:blue;">Second Part</div>
     </div>
-    <div class= "flex-divs1" style="background-color: red;">
-second part
-       </DIV>
 </body>
 </html>

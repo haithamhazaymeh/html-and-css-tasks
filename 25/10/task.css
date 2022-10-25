@@ -2,23 +2,23 @@
 
 .pairnt {
     height: 100%;
-    width: 95%;
-    border: 5px solid black;
-    background-color: blue;
+    width: 74%;
     margin: 20px 20px 20px 20px;
-    padding: 10px 10px 10px;
+    padding: 20px 20px 20px;
+    align-content: center;
 }
 
 .photo{
     width: 30%;
     height: 25%;
    
+   
 }
 
 /* phone */
 @media  only screen and (min-device-width:0px) and (max-device-width:480px) {
     .photo{
-        width: 95%;
+        width: 100%;
         height: 25%;
     
 }
@@ -29,8 +29,15 @@
     .photo{
         width: 49%;
         height: 25%;
+
+    }
+
+        .pairnt{
+            width: 89%;
+
+        }
     
-}
+
 }
 
 
@@ -40,6 +47,9 @@
     .photo{
         width: 33%;
         height: 25%;
-    
 }
+
+    .pairnt{
+        width: 91%;
+    }
 }

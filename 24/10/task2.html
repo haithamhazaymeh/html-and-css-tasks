@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=D, initial-scale=1.0">
     <title>task 2</title>
     <style>
+
         .parnt{
           display: grid;
           border: 5px solid chocolate;
@@ -18,6 +19,21 @@
             text-align: center;
             color: white;
         }
+
+        @media only screen and (min-width:0px) and (max-width:480px){
+            .parnt{
+            
+                grid-template-columns: auto;
+              }    
+            }
+
+            @media only screen and (min-width:481px) and (max-width:768px){
+            .parnt{
+            
+                grid-template-columns: auto auto auto;
+              }    
+            }
+        
     </style>
 </head>
 <body>
